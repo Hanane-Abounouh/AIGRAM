@@ -1,0 +1,54 @@
+body {
+    background-color: black;
+    display: flex;
+    height: auto;
+    margin-left: 16vw;
+    list-style: none;
+    text-decoration: none;
+}
+
+aside {
+    overflow-y: auto;
+    background: #fdfcfc;
+    width: 16vw;
+    min-height: 97vw;
+    top: 0;
+    left: 0;
+    color: white;
+    position: fixed !important;
+    border-right: 1px solid rgb(59, 59, 60);
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 120px;
+    width: 100%;
+    max-width: calc(100vw - 16vw); /* Définit la largeur maximale de main en fonction de la largeur de la fenêtre moins la largeur de l'aside */
+    height: auto;
+}
+
+main header {
+    background-color: blue;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+}
+
+main section {
+    background-color: rgb(33, 33, 112);
+    height: auto;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+main footer {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    background-color: green;
+    height: auto;
+}
